@@ -6,9 +6,9 @@
     <title>Enterprise Library 4.1 Contribution Data ODP.NET Managed Provider</title>
     <authors>renqiancheng</authors>
     <owners>renqiancheng</owners>
-    <license>https://opensource.org/licenses/ms-pl</license>
+    <licenseUrl>https://opensource.org/licenses/ms-pl</licenseUrl>
     <projectUrl>https://github.com/renqiancheng/EntLibContrib.Data.ManagedOdpNet</projectUrl>
-	<iconUrl></iconUrl>
+	<iconUrl>https://github.com/renqiancheng/EntLibContrib.Data.ManagedOdpNet/blob/master/EntLibContrib.Data.ManagedOdpNet/NuGet/config.png?raw=true</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Enterprise Library 4.1 Contribution Data ODP.NET Managed Provider. Modified from https://entlibcontrib.codeplex.com.</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>

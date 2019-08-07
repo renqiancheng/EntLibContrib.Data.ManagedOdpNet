@@ -99,7 +99,6 @@ namespace EntLibContrib.Data.ManagedOdpNet
 		/// This version of the method is used when you can have the same
 		/// parameter object multiple times with different values.
 		/// </remarks>
-		[CLSCompliantAttribute(false)]
 		public void AddInParameter(DbCommand command,
 															string name,
 															OracleDbType dbType)
@@ -117,7 +116,6 @@ namespace EntLibContrib.Data.ManagedOdpNet
 		/// <param name="dbType">One of the <see cref="OracleDbType"/>
 		/// values.</param>
 		/// <param name="value">The value of the parameter.</param>
-		[CLSCompliantAttribute(false)]
 		public void AddInParameter(DbCommand command,
 															string name,
 															OracleDbType dbType,
@@ -139,7 +137,6 @@ namespace EntLibContrib.Data.ManagedOdpNet
 		/// mapped to the DataSet and used for loading or returning the value.</param>
 		/// <param name="sourceVersion">One of the
 		/// <see cref="DataRowVersion"/> values.</param>
-		[CLSCompliantAttribute(false)]
 		public void AddInParameter(DbCommand command,
 															string name,
 															OracleDbType dbType,
@@ -161,7 +158,6 @@ namespace EntLibContrib.Data.ManagedOdpNet
 		/// values.</param>
 		/// <param name="size">The maximum size of the data within the
 		/// column.</param>
-		[CLSCompliantAttribute(false)]
 		public void AddOutParameter(DbCommand command,
 																string name,
 																OracleDbType dbType,
@@ -197,7 +193,6 @@ namespace EntLibContrib.Data.ManagedOdpNet
 		/// <param name="sourceVersion">One of the
 		/// <see cref="DataRowVersion"/> values.</param>
 		/// <param name="value">The value of the parameter.</param>
-		[CLSCompliantAttribute(false)]
 		public virtual void AddParameter(DbCommand command,
 																		string name,
 																		OracleDbType dbType,
@@ -234,7 +229,6 @@ namespace EntLibContrib.Data.ManagedOdpNet
 		/// <param name="sourceVersion">One of the
 		/// <see cref="DataRowVersion"/> values.</param>
 		/// <param name="value">The value of the parameter.</param>
-		[CLSCompliantAttribute(false)]
 		public void AddParameter(DbCommand command,
 														string name,
 														OracleDbType dbType,
@@ -321,7 +315,6 @@ namespace EntLibContrib.Data.ManagedOdpNet
 		/// <param name="sourceVersion">One of the
 		/// <see cref="DataRowVersion"/> values.</param>
 		/// <param name="value">The value of the parameter.</param>
-		[CLSCompliantAttribute(false)]
 		protected virtual void ConfigureParameter(OracleParameter parameter,
 																							string name,
 																							OracleDbType dbType,
@@ -368,7 +361,6 @@ namespace EntLibContrib.Data.ManagedOdpNet
 		/// <see cref="DataRowVersion"/> values.</param>
 		/// <param name="value">The value of the parameter.</param>
 		/// <returns></returns>
-		[CLSCompliantAttribute(false)]
 		protected DbParameter CreateParameter(string name,
 																					OracleDbType dbType,
 																					int size,

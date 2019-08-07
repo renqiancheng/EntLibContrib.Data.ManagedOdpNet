@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>EntLibContrib.Data.ManagedOdpNet</id>
-    <version>4.1.0</version>
+    <version>4.1.4</version>
     <title>Enterprise Library 4.1 Contribution Data ODP.NET Managed Provider</title>
     <authors>renqiancheng</authors>
     <owners>renqiancheng</owners>
@@ -16,7 +16,7 @@
     <tags> entlib Enterprise Library 4.1 oracle ManagedDataAccess</tags>
   </metadata>
     <files>
-    <file src="..\EntLibContrib.Data.ManagedOdpNet\bin\Debug\EntLibContrib.Data.ManagedOdpNet.dll" target="lib" />
-    <file src="..\EntLibContrib.Data.ManagedOdpNet\bin\Debug\EntLibContrib.Data.ManagedOdpNet.pdb" target="lib" />
+    <file src="..\EntLibContrib.Data.ManagedOdpNet\bin\Debug\EntLibContrib.Data.ManagedOdpNet.dll" target="lib\net48" />
+    <file src="..\EntLibContrib.Data.ManagedOdpNet\bin\Debug\EntLibContrib.Data.ManagedOdpNet.pdb" target="lib\net48" />
   </files>
 </package>

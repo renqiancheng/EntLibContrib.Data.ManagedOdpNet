@@ -1,22 +1,43 @@
-<?xml version="1.0"?>
-<package >
-  <metadata>
-    <id>EntLibContrib.Data.ManagedOdpNet</id>
-    <version>4.1.4</version>
-    <title>Enterprise Library 4.1 Contribution Data ODP.NET Managed Provider</title>
-    <authors>renqiancheng</authors>
-    <owners>renqiancheng</owners>
-    <licenseUrl>https://opensource.org/licenses/ms-pl</licenseUrl>
-    <projectUrl>https://github.com/renqiancheng/EntLibContrib.Data.ManagedOdpNet</projectUrl>
-	<iconUrl>https://github.com/renqiancheng/EntLibContrib.Data.ManagedOdpNet/blob/master/EntLibContrib.Data.ManagedOdpNet/NuGet/config.png?raw=true</iconUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>Enterprise Library 4.1 Contribution Data ODP.NET Managed Provider. Modified from https://entlibcontrib.codeplex.com.</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2019</copyright>
-    <tags> entlib Enterprise Library 4.1 oracle ManagedDataAccess</tags>
-  </metadata>
-    <files>
-    <file src="..\EntLibContrib.Data.ManagedOdpNet\bin\Debug\EntLibContrib.Data.ManagedOdpNet.dll" target="lib\net48" />
-    <file src="..\EntLibContrib.Data.ManagedOdpNet\bin\Debug\EntLibContrib.Data.ManagedOdpNet.pdb" target="lib\net48" />
-  </files>
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+		<id>EntLibContrib.Data.ManagedOdpNet</id>
+		<version>4.1.1</version>
+		<description>Enterprise Library 4.1 Contribution Data ODP.NET Managed Provider. Modified from https://entlibcontrib.codeplex.com.</description>
+        <authors>renqiancheng</authors>
+        <!-- Optional elements -->
+		<projectUrl>https://github.com/renqiancheng/EntLibContrib.Data.ManagedOdpNet</projectUrl>
+		<license type="expression">MS-PL</license><!-- 标识参考https://spdx.org/licenses/ -->
+		<!-- <license type="file">LICENSE.txt</license> 也可使用文件 -->
+		<!-- 64x64 image -->
+		<iconUrl>https://github.com/renqiancheng/EntLibContrib.Data.ManagedOdpNet/blob/master/EntLibContrib.Data.ManagedOdpNet/NuGet/config.png?raw=true</iconUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<tags> entlib Enterprise Library 4.1 oracle ManagedDataAccess</tags>
+		<releaseNotes>Add more nuget package information.</releaseNotes>
+		<frameworkAssemblies>
+            <frameworkAssembly assemblyName="System.configuration" targetFramework="net40" />
+			<frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework="net40" />
+			<frameworkAssembly assemblyName="System.Management" targetFramework="net40" />
+			<frameworkAssembly assemblyName="System.Transactions" targetFramework="net40" />
+        </frameworkAssemblies>
+		<dependencies>
+            <dependency id="Oracle.ManagedDataAccess" version="12.1.21" />
+        </dependencies>
+		<references>
+		<group targetFramework="net45">
+			<reference file="Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+			<reference file="Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+			<reference file="Microsoft.Practices.ObjectBuilder2.dll" />
+		</group>
+</references>
+    </metadata>
+    <!-- Optional 'files' node -->
+	<files>
+		<file src="..\EntLibContrib.Data.ManagedOdpNet\bin\Debug\EntLibContrib.Data.ManagedOdpNet.dll" target="lib\net40" />
+		<file src="..\EntLibContrib.Data.ManagedOdpNet\bin\Debug\EntLibContrib.Data.ManagedOdpNet.pdb" target="lib\net40" />
+		<file src="..\EntLibContrib.Data.ManagedOdpNet\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll" target="lib\net40" />
+		<file src="..\EntLibContrib.Data.ManagedOdpNet\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll" target="lib\net40" />
+		<file src="..\EntLibContrib.Data.ManagedOdpNet\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll" target="lib\net40" />
+	</files>
 </package>

@@ -6,6 +6,8 @@ Modified from https://entlibcontrib.codeplex.com.
 
 仅支持 Enterprise Library 4.1
 
+版权地址：https://entlibcontrib.codeplex.com
+
 ## NuGet 安装
 
 [NuGet 包地址](https://www.nuget.org/packages/EntLibContrib.Data.ManagedOdpNet)
